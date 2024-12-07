@@ -4,8 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+python-dotenv = "*"
+django = "*"
 
 [dev-packages]
+black = "*"
+isort = "*"
+pre-commit = "*"
 
 [requires]
 python_version = "3.13"
