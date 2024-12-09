@@ -4,17 +4,10 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-python-dotenv = "*"
 django = "*"
-django-taggit = "*"
-psycopg = "*"
-pillow = "*"
-social-auth-app-django = "*"
+python-dotenv = "*"
 
 [dev-packages]
-black = "*"
-isort = "*"
-pre-commit = "*"
 
 [requires]
-python_version = "3.13"
+python_version = "3.12"
